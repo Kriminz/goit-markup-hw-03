@@ -9,6 +9,7 @@
 }
 
 body {
+    margin: 0;
     font-family: 'Roboto', sans-serif;
     background-color: var(--second-color);
 }
@@ -19,13 +20,43 @@ a {
 
 ul {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+}
+
+h1,
+h2,
+h3,
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 .section{
+    padding: 94px 0;
     outline: 2px solid purple;
 }
 
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* хедер */
+.head{
+    border-bottom: 1px;
+    border-color: rgba(236, 236, 236, 1);
+    
+}
+
+.navbar{
+    outline: 2px solid purple;
+}
+
 .icon {
     color: var(--link-button-color);
 }
@@ -80,6 +111,9 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    padding: 0 237px;
+    padding-top: 106px;
+    padding-bottom: 30px;
 }
 
 /* приховане */
@@ -97,6 +131,7 @@ ul {
 .button {
     background-color: var(--butn-team-color);
     font-family: 'Roboto', sans-serif;
+    border-color: transparent;
     cursor: pointer;
     color: var(--main-color);
     border-radius: 4px;
@@ -108,7 +143,10 @@ ul {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
-    border-color: transparent;
+    margin: 0 477px;
+    margin-bottom: 106px;
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button.filter {
@@ -135,12 +173,14 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .project{
     color: var(--main-color);
     background-color: var(--second-color);
     border: 1px solid #EEEEEE;
+    outline: 2px solid purple;
 }
 
 .project-title{
