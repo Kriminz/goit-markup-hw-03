@@ -37,6 +37,10 @@ p{
     padding: 0;
 }
 
+img{
+    display: block;
+}
+
 .section{
     padding: 94px 0;
 }
@@ -242,11 +246,9 @@ p{
 
 .project-img{
     /* margin-bottom: 20px; */
-    display: block;
 }
 
 .notes{
-    display: block;
     /* outline: 2px solid purple; */
     padding-bottom: 20px;
     padding-top: 30px;
