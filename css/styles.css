@@ -195,7 +195,7 @@ img{
 
 .button:hover,
 .button:focus {
-    opacity: 1, 5;
+    opacity: 1;
     background-color: var(--link-button-color);
     color: var(--second-color);
 }
